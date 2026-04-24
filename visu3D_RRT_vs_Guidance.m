@@ -153,7 +153,7 @@ end
 
 %% 4. TRACÉ DES TRAJECTOIRES
 % Trajectoire issue du RRT*
-plot3(x, y, z, 'r--', 'LineWidth', 1.5, 'DisplayName', 'Trajectoire planifiée');
+plot3(x, y, z, 'r-', 'LineWidth', 1.5, 'DisplayName', 'Trajectoire planifiée');
 
 % Trajectoire réaliste d'après le low fidelity guidance model
 plot3(x_dyn, y_dyn, z_dyn, 'b-', 'LineWidth', 2, 'DisplayName', 'Trajectoire réaliste');
