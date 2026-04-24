@@ -4,4 +4,5 @@ Trajectoire_drone_dans_blender.py : programme inséré dans Blender pour tracer 
 
 code_matlab_trajectoire_commenté.m : Planification de la trajectoire RRT* et lissage par csaps
 
-visu3D_RRT_vs_Guidance.m : 
+visu3D_RRT_vs_Guidance.m : Code commenté de la visualisation 3D dans Matlab de la ville simplifiée sous forme de blocs, et comparaison de la trajectoire issue de l'algorithme RRT* avec la trajectoire issue d'un low fidelity Guidance Model fourni par les ressources Matlab 
+Lien de l'article d'où provient le Guidance Model : [https://fr.mathworks.com/help/uav/ug/approximate-high-fidelity-uav-model-with-guidance-model.html](url)
